@@ -8,10 +8,10 @@ import json
 import pymongo
 from pymongo import MongoClient
 
-consumer_key = "hBeGw9dboZlMTdRG0XSPsZQE2"
-consumer_secret = "vScXnCqScPYj4m4Ljz53SuHvf0CtYJFVjtnspN0Z9iCQAMQFlY"
-access_key = "1366648755919806465-U4yyvWzt7K2OFuZuhI7H2kEzcnaSyh"
-access_secret = "gAGPmE4A3j8Y1CXjYRKOyU4NQm5ByTYkxV9wO5mNVnnPU"
+consumer_key = "consumer_key"
+consumer_secret = "consumer_secret"
+access_key = "access_key"
+access_secret = "access_secret"
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_key, access_secret)
