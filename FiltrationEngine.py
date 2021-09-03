@@ -13,7 +13,7 @@ jsonfile = open('Tweet 3000.json')
 
 jsondata = json.load(jsonfile)
 
-myclient = pymongo.MongoClient("mongodb+srv://root:57ZXnXNJMrT4y5Cx@democluster.5uvmv.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
+myclient = pymongo.MongoClient("key")
 mydb = myclient['TweetDB']
 mycollection = mydb["TweetCollection"]
 
